@@ -1,0 +1,215 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#banner {
+    background-image: url("./images/banner/banner.png");
+    height: 638px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+#banner_text_area {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 66%;
+    transform: translate(-33%, -50%);
+    width: 30%;
+}
+
+#banner_text_area h1{
+    font-size: 50px;
+    margin: 15px 0px;
+}
+
+#banner_text_area p{
+    margin: 0px 0px 20px 0px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#banner_text_area button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #F15B22;
+    text-align: center;
+    cursor: pointer;
+}
+
+#banner_text_area button:hover {
+    background-color: #555;
+    color: white;
+}
+
+#failure{
+    min-height: 400px;
+    padding: 150px 20px 20px 20px;
+}
+#person_area{
+    float: left;
+    width: 50%;
+}
+#person_circle{
+    background: #FDD1C0;
+    width: 64%;
+    border-radius: 50%;
+    height: 372px;
+    float: right;
+    margin-right: 60px;
+    position: relative;
+}
+#person_area img{
+    width: 100%;
+    position: absolute;
+    top: -33%;
+}
+#failure_text_area{
+    float: left;
+    width: 36%;
+}
+#failure_text_area h2{}
+#failure_text_area p{
+    font-size: 13px;
+    line-height: 20px;
+}
+#failure_text_area ul{}
+#failure_text_area ul li::before{
+    background-image: url("./images/done_icon.png");
+}
+#failure_text_area ul li{
+    background-size: 5px;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+#plan_area{
+    padding: 50px;
+    min-height: 300px;
+}
+#plan_area h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.plan_items{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 110px;
+}
+.plan_item{
+    width: 25%;
+    text-align: center;
+}
+.plan_item h4{
+    color: #999;
+}
+#mind_set{
+    padding: 0px 0px 100px;
+}
+#mind_set_text_area{
+    height: 200px;
+    background-image: url(./images/gradient2.png),url(./images/watch.png);
+    background-position: left top, left top;
+    background-repeat: no-repeat, no-repeat;
+    padding: 25px 50px;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#mind_set_text_area h1{
+    color: #fff;
+    font-size: 32px;
+    width: 43%;
+    line-height: 45px;
+}
+#mind_set_text_area button{
+    padding: 10px 20px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    border: 1px solid orange;
+    color: orangered;
+    font-weight: 400;
+}
+
+/*notes section*/
+
+#notes{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 125px;
+}
+#notes h1{
+    font-weight:600;
+    text-align:center;
+    letter-spacing: 2px;
+}
+.note{
+    color: #444;
+    border: 1px solid #999;
+    margin: 10px;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.note p{}
+
+/*footer section*/
+footer{
+    background-color: black;
+    padding: 50px 120px;
+    color: #fff;
+    min-height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+#left-side{
+    width: 35%;
+    margin-left: 50px;
+}
+#left-side h1{}
+#left-side p{
+    font-size: 13px;
+    line-height: 20px;
+}
+#icons{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    margin-top: 15px;
+}
+#icons img{
+    width: 40px;
+    height: 40px;
+}
+#right-side{
+    width: 35%;
+}
+#right-side h3{}
+#right-side input{
+    padding: 14px;
+    width: 62%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+#right-side button{
+    padding: 10px 20px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: orangered;
+    font-weight: 400;
+}
